@@ -10,7 +10,7 @@ console.log(eta);
 let prezzo_base = (chilometri * 0.21);
 console.log( prezzo_base);
 
-// calcolo biglietto eta inferiroe ai 18 anni
+// calcolo biglietto eta inferiore ai 18 anni
 if(eta<18){
     console.log(eta);
     prezzo_biglietto = (prezzo_base * 20/100);
@@ -27,4 +27,5 @@ if(eta<18){
     prezzo_biglietto = (prezzo_base * 40/100);
     console.log(prezzo_biglietto);
 }
+
 
