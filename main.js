@@ -18,9 +18,9 @@ if(eta<18){
 
 }else if (eta >= 18 && eta <= 65) //calcolo biglietto eta compresa tra i 18 e i 65
 {
-    console.log(eta);
-    prezzo_biglietto = (prezzo_base);
-    console.log(prezzo_biglietto);
+    console.log(eta)
+    prezzo_biglietto = (prezzo_base)
+    console.log(prezzo_biglietto)
 
 }else if (eta > 65) //calcolo biglietto eta maggiore di 65 anni
 {
